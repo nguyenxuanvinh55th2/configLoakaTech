@@ -5,3 +5,9 @@ export function loginCommand(user){
         user,
     }
 }
+export function addNotificationMute(detail){
+    return {
+        type: 'ADD_NOTIFICATION',
+        detail
+    }
+}
